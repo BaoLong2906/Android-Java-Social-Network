@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/frameContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top"
+        >
+
+        <ImageView
+            android:id="@+id/homebtn"
+            android:onClick="ChangeFragment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconhomeoff" />
+
+        <ImageView
+            android:id="@+id/myorderbtn"
+            android:onClick="ChangeFragment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconmyorderoff" />
+
+        <ImageView
+            android:id="@+id/earthbtn"
+            android:onClick="ChangeFragment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconearthoff" />
+
+        <ImageView
+            android:id="@+id/profilebtn"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:onClick="ChangeFragment"
+            app:srcCompat="@drawable/profileoff" />
+
+    </LinearLayout>
+
+</LinearLayout>

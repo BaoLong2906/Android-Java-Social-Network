@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187247295741",
+    "firebase_url": "https://blfood-38a86.firebaseio.com",
+    "project_id": "blfood-38a86",
+    "storage_bucket": "blfood-38a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187247295741:android:9ed784c93c1d433fed1294",
+        "android_client_info": {
+          "package_name": "com.example.blfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187247295741-2b8appn17nl4t8g36t5kj6n850n59fh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbI0xFhzZxEMwaOY4MhGYYM1PG7f086cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187247295741-2b8appn17nl4t8g36t5kj6n850n59fh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+
+    <TextView
+        android:id="@+id/BillRowProductname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Pizza" />
+
+    <TextView
+        android:id="@+id/BillRowPrice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="5$" />
+
+    <TextView
+        android:id="@+id/BillRowSoLuong"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/BillRowTongTien"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="100$" />
+</LinearLayout>
